@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      import: optional:configserver:http://localhost:8888
+      enabled: true
+      uri: http://localhost:8888
+
