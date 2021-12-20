@@ -2,6 +2,7 @@ plugins {
 	id 'org.springframework.boot' version '2.5.7'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
+	id 'base'
 }
 
 group = 'com.vky'
@@ -15,12 +16,25 @@ repositories {
 ext {
 	set('springCloudVersion', "2020.0.4")
 }
+configurations {
+	toCopy
+}
+
+task download(type: Copy) {
+	from configurations.toCopy
+	into 'lib'
+}
 
 dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-config-server'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	toCopy 'org.springframework.cloud:spring-cloud-config-server'
+	toCopy 'org.springframework.boot:spring-boot-starter-webflux'
+	toCopy 'org.springframework.boot:spring-boot-starter-actuator'
+	toCopy 'org.springframework.boot:spring-boot-starter-test'
 }
 
 dependencyManagement {

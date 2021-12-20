@@ -15,6 +15,14 @@ repositories {
 ext {
 	set('springCloudVersion', "2020.0.4")
 }
+configurations {
+	toCopy
+}
+
+task download(type: Copy) {
+	from configurations.toCopy
+	into 'lib'
+}
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
@@ -22,6 +30,12 @@ dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	toCopy 'org.springframework.boot:spring-boot-starter-actuator'
+	toCopy 'org.springframework.cloud:spring-cloud-starter-config'
+	toCopy 'org.springframework.cloud:spring-cloud-starter-bootstrap'
+	toCopy 'org.springframework.boot:spring-boot-starter-web'
+	toCopy 'org.springframework.boot:spring-boot-starter-test'
 }
 
 dependencyManagement {
