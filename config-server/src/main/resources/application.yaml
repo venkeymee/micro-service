@@ -1,5 +1,8 @@
 server:
   port: 8888
+logging:
+  level:
+    root: info
 spring:
   profiles:
     active: native
@@ -9,3 +12,11 @@ spring:
         native:
           searchLocations: "[classpath:/, classpath:/config, classpath:/config/{application}, classpath:/config/{application}/{profile}]"
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+endpoints:
+  restart:
+    enabled: true

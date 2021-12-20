@@ -1,5 +1,8 @@
 server:
   port: 8080
+logging:
+  level:
+    root: info
 spring:
   application:
     name: config-client
@@ -8,4 +11,10 @@ spring:
       import: optional:configserver:http://localhost:8888
       enabled: true
       uri: http://localhost:8888
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
 
