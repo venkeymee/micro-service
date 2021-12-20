@@ -1,0 +1,396 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-webflux",
+    "version": "5.3.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.13"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-servlet-api"
+            },
+            {
+              "group": "org.apache.taglibs",
+              "module": "taglibs-standard-spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.websocket",
+              "module": "jboss-websocket-api_1.1_spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.servlet",
+              "module": "jboss-servlet-api_4.0_spec"
+            },
+            {
+              "group": "org.hamcrest",
+              "module": "hamcrest-core"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.jboss.spec.javax.annotation",
+              "module": "jboss-annotations-api_1.3_spec"
+            },
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-websocket-api"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.13"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-servlet-api"
+            },
+            {
+              "group": "org.apache.taglibs",
+              "module": "taglibs-standard-spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.websocket",
+              "module": "jboss-websocket-api_1.1_spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.servlet",
+              "module": "jboss-servlet-api_4.0_spec"
+            },
+            {
+              "group": "org.hamcrest",
+              "module": "hamcrest-core"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.jboss.spec.javax.annotation",
+              "module": "jboss-annotations-api_1.3_spec"
+            },
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-websocket-api"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web",
+          "version": {
+            "requires": "5.3.13"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-servlet-api"
+            },
+            {
+              "group": "org.apache.taglibs",
+              "module": "taglibs-standard-spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.websocket",
+              "module": "jboss-websocket-api_1.1_spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.servlet",
+              "module": "jboss-servlet-api_4.0_spec"
+            },
+            {
+              "group": "org.hamcrest",
+              "module": "hamcrest-core"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.jboss.spec.javax.annotation",
+              "module": "jboss-annotations-api_1.3_spec"
+            },
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-websocket-api"
+            }
+          ]
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.4.12"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-servlet-api"
+            },
+            {
+              "group": "org.apache.taglibs",
+              "module": "taglibs-standard-spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.websocket",
+              "module": "jboss-websocket-api_1.1_spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.servlet",
+              "module": "jboss-servlet-api_4.0_spec"
+            },
+            {
+              "group": "org.hamcrest",
+              "module": "hamcrest-core"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.jboss.spec.javax.annotation",
+              "module": "jboss-annotations-api_1.3_spec"
+            },
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-websocket-api"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-webflux-5.3.13.jar",
+          "url": "spring-webflux-5.3.13.jar",
+          "size": 946205,
+          "sha512": "d069024c3c8e31995745e0bb4e3bbb49bd849f73e20b6f92bb887f906cbdd3d8eb6057545ef91087c36bd06d1372be5a448ed458183e788c662739c460e2ecc6",
+          "sha256": "a003c78814fd0fb80a83e27aa4fd5740d332d35150778cefac3fd3b3a7dd3845",
+          "sha1": "21f327a1a902c9199c9d9013d6f82d239e5a605d",
+          "md5": "ce48fdd0d6215dc867a8991874c67c06"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.13"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-servlet-api"
+            },
+            {
+              "group": "org.apache.taglibs",
+              "module": "taglibs-standard-spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.websocket",
+              "module": "jboss-websocket-api_1.1_spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.servlet",
+              "module": "jboss-servlet-api_4.0_spec"
+            },
+            {
+              "group": "org.hamcrest",
+              "module": "hamcrest-core"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.jboss.spec.javax.annotation",
+              "module": "jboss-annotations-api_1.3_spec"
+            },
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-websocket-api"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.13"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-servlet-api"
+            },
+            {
+              "group": "org.apache.taglibs",
+              "module": "taglibs-standard-spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.websocket",
+              "module": "jboss-websocket-api_1.1_spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.servlet",
+              "module": "jboss-servlet-api_4.0_spec"
+            },
+            {
+              "group": "org.hamcrest",
+              "module": "hamcrest-core"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.jboss.spec.javax.annotation",
+              "module": "jboss-annotations-api_1.3_spec"
+            },
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-websocket-api"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web",
+          "version": {
+            "requires": "5.3.13"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-servlet-api"
+            },
+            {
+              "group": "org.apache.taglibs",
+              "module": "taglibs-standard-spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.websocket",
+              "module": "jboss-websocket-api_1.1_spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.servlet",
+              "module": "jboss-servlet-api_4.0_spec"
+            },
+            {
+              "group": "org.hamcrest",
+              "module": "hamcrest-core"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.jboss.spec.javax.annotation",
+              "module": "jboss-annotations-api_1.3_spec"
+            },
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-websocket-api"
+            }
+          ]
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.4.12"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-servlet-api"
+            },
+            {
+              "group": "org.apache.taglibs",
+              "module": "taglibs-standard-spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.websocket",
+              "module": "jboss-websocket-api_1.1_spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.servlet",
+              "module": "jboss-servlet-api_4.0_spec"
+            },
+            {
+              "group": "org.hamcrest",
+              "module": "hamcrest-core"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.jboss.spec.javax.annotation",
+              "module": "jboss-annotations-api_1.3_spec"
+            },
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-websocket-api"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-webflux-5.3.13.jar",
+          "url": "spring-webflux-5.3.13.jar",
+          "size": 946205,
+          "sha512": "d069024c3c8e31995745e0bb4e3bbb49bd849f73e20b6f92bb887f906cbdd3d8eb6057545ef91087c36bd06d1372be5a448ed458183e788c662739c460e2ecc6",
+          "sha256": "a003c78814fd0fb80a83e27aa4fd5740d332d35150778cefac3fd3b3a7dd3845",
+          "sha1": "21f327a1a902c9199c9d9013d6f82d239e5a605d",
+          "md5": "ce48fdd0d6215dc867a8991874c67c06"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-starter",
+    "version": "2.3.1.RELEASE",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.4",
+      "buildId": "ilp2nxb3vvdvjnj6fv6xf32egy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-dependencies",
+          "version": {
+            "requires": "2.3.1.RELEASE"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.3.1.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure",
+          "version": {
+            "requires": "2.3.1.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-logging",
+          "version": {
+            "requires": "2.3.1.RELEASE"
+          }
+        },
+        {
+          "group": "jakarta.annotation",
+          "module": "jakarta.annotation-api"
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core"
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml"
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-2.3.1.RELEASE.jar",
+          "url": "spring-boot-starter-2.3.1.RELEASE.jar",
+          "size": 4761,
+          "sha512": "0bc7ef84878634512b0838355cc9002d13d3137af0c990acc5143d8feb52ef3a335d99d60c0f7eec621f7afe70c50528e0859d6c2c42bf66ca8a8827e92662d0",
+          "sha256": "c40e3c4e32b258842111ef2e5e159e5bbe7427d31cd513381d2a29af2ce4c8c1",
+          "sha1": "e0d28696fea064578cb01da346232284f922eba4",
+          "md5": "69ad7bad7c709a2a412cb9b705eb6292"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-dependencies",
+          "version": {
+            "requires": "2.3.1.RELEASE"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.3.1.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure",
+          "version": {
+            "requires": "2.3.1.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-logging",
+          "version": {
+            "requires": "2.3.1.RELEASE"
+          }
+        },
+        {
+          "group": "jakarta.annotation",
+          "module": "jakarta.annotation-api"
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core"
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml"
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-2.3.1.RELEASE.jar",
+          "url": "spring-boot-starter-2.3.1.RELEASE.jar",
+          "size": 4761,
+          "sha512": "0bc7ef84878634512b0838355cc9002d13d3137af0c990acc5143d8feb52ef3a335d99d60c0f7eec621f7afe70c50528e0859d6c2c42bf66ca8a8827e92662d0",
+          "sha256": "c40e3c4e32b258842111ef2e5e159e5bbe7427d31cd513381d2a29af2ce4c8c1",
+          "sha1": "e0d28696fea064578cb01da346232284f922eba4",
+          "md5": "69ad7bad7c709a2a412cb9b705eb6292"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-2.3.1.RELEASE-javadoc.jar",
+          "url": "spring-boot-starter-2.3.1.RELEASE-javadoc.jar",
+          "size": 4761,
+          "sha512": "0bc7ef84878634512b0838355cc9002d13d3137af0c990acc5143d8feb52ef3a335d99d60c0f7eec621f7afe70c50528e0859d6c2c42bf66ca8a8827e92662d0",
+          "sha256": "c40e3c4e32b258842111ef2e5e159e5bbe7427d31cd513381d2a29af2ce4c8c1",
+          "sha1": "e0d28696fea064578cb01da346232284f922eba4",
+          "md5": "69ad7bad7c709a2a412cb9b705eb6292"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-2.3.1.RELEASE-sources.jar",
+          "url": "spring-boot-starter-2.3.1.RELEASE-sources.jar",
+          "size": 4761,
+          "sha512": "9248c19a69f32f2395664e179f680aaff9c76319a654bfd14e0a295a296384779ae54d6a6aac41f3f7583245d548ae1e87dcbffea4da15c56708c2c6376ced99",
+          "sha256": "3ae59ecc35f37878026d246f02160586c3fab4447ee14f8401cce49b11cbdc2b",
+          "sha1": "f1e77d2028b37ab9361ddaccc30c09a51932112b",
+          "md5": "6a13377a02033490180a2fafd1cd408d"
+        }
+      ]
+    }
+  ]
+}
