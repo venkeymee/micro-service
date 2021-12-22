@@ -33,7 +33,7 @@ dependencies {
 	implementation 'org.springframework:spring-jms:5.3.13'
 
 	implementation 'org.springframework.integration:spring-integration-jms'
-	implementation 'org.springframework.boot:spring-boot-starter-activemq'
+	implementation 'com.ibm.mq:mq-jms-spring-boot-starter:2.5.7'
 
 
 	toCopy 'org.springframework.boot:spring-boot-starter-actuator'
@@ -42,7 +42,8 @@ dependencies {
 	toCopy 'org.springframework.boot:spring-boot-starter-web'
 	toCopy 'org.springframework.boot:spring-boot-starter-test'
 	toCopy 'org.springframework.integration:spring-integration-jms'
-	toCopy 'org.springframework.boot:spring-boot-starter-activemq'
+	toCopy 'com.ibm.mq:mq-jms-spring-boot-starter:2.5.7'
+
 }
 
 dependencyManagement {

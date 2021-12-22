@@ -35,6 +35,8 @@ dependencies {
 
 	implementation 'org.springframework.integration:spring-integration-jms'
 	implementation 'org.springframework.boot:spring-boot-starter-activemq'
+	implementation 'com.ibm.mq:mq-jms-spring-boot-starter'
+
 
 
 
@@ -43,6 +45,7 @@ dependencies {
 	toCopy 'org.springframework.boot:spring-boot-starter-webflux'
 	toCopy 'org.springframework.boot:spring-boot-starter-actuator'
 	toCopy 'org.springframework.boot:spring-boot-starter-test'
+	toCopy 'com.ibm.mq:mq-jms-spring-boot-starter'
 }
 
 dependencyManagement {
