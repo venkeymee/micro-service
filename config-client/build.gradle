@@ -32,12 +32,17 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'org.springframework:spring-jms:5.3.13'
 
+	implementation 'org.springframework.integration:spring-integration-jms'
+	implementation 'org.springframework.boot:spring-boot-starter-activemq'
+
 
 	toCopy 'org.springframework.boot:spring-boot-starter-actuator'
 	toCopy 'org.springframework.cloud:spring-cloud-starter-config'
 	toCopy 'org.springframework.cloud:spring-cloud-starter-bootstrap'
 	toCopy 'org.springframework.boot:spring-boot-starter-web'
 	toCopy 'org.springframework.boot:spring-boot-starter-test'
+	toCopy 'org.springframework.integration:spring-integration-jms'
+	toCopy 'org.springframework.boot:spring-boot-starter-activemq'
 }
 
 dependencyManagement {
