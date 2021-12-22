@@ -30,6 +30,8 @@ dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.springframework:spring-jms:5.3.13'
+
 
 	toCopy 'org.springframework.boot:spring-boot-starter-actuator'
 	toCopy 'org.springframework.cloud:spring-cloud-starter-config'
