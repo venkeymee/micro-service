@@ -29,6 +29,8 @@ dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-starter-config'
 	implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-aop'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'org.springframework:spring-jms:5.3.13'
 
@@ -40,6 +42,8 @@ dependencies {
 	toCopy 'org.springframework.cloud:spring-cloud-starter-config'
 	toCopy 'org.springframework.cloud:spring-cloud-starter-bootstrap'
 	toCopy 'org.springframework.boot:spring-boot-starter-web'
+	toCopy 'org.springframework.boot:spring-boot-starter-aop'
+
 	toCopy 'org.springframework.boot:spring-boot-starter-test'
 	toCopy 'org.springframework.integration:spring-integration-jms'
 	toCopy 'com.ibm.mq:mq-jms-spring-boot-starter:2.5.7'
