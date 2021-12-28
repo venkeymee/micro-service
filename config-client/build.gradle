@@ -25,8 +25,11 @@ task download(type: Copy) {
 }
 
 dependencies {
+	implementation "com.oracle.ojdbc:ojdbc8:19.3.0.0"
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.cloud:spring-cloud-starter-config'
+	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+
 	implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-aop'
@@ -52,6 +55,10 @@ dependencies {
 	toCopy 'com.ibm.mq:mq-jms-spring-boot-starter:2.5.7'
 	toCopy 'org.springframework.boot:spring-boot-starter-data-jdbc'
 	toCopy 'org.springframework.boot:spring-boot-starter-data-jpa'
+	toCopy "com.oracle.ojdbc:ojdbc8:19.3.0.0"
+	toCopy 'org.springframework.boot:spring-boot-starter-webflux'
+
+
 
 }
 
